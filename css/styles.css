@@ -94,7 +94,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -228,6 +228,7 @@ img {
 
 .services {
   text-align: center;
+  padding-bottom: 94px;
 }
 
 .services-list {
@@ -283,8 +284,12 @@ img {
   margin-right: 30px;
 }
 
+.team .card-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-list .title {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -294,8 +299,6 @@ img {
 }
 
 .team-list .text {
-  margin-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.19;
   color: var(--second-text-color);
@@ -305,9 +308,6 @@ img {
 
 .footer {
   background-color: var(--third-bgc);
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
